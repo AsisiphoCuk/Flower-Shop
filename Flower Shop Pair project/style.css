@@ -1,0 +1,177 @@
+
+  .navBar { display: flex;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    padding: 25px 0;
+}
+
+li a {color:black;
+  text-decoration: none;
+}
+
+  li a:hover { color: orange}
+  
+ .nav-items {list-style: none;
+  margin-left: 38%;
+   display: flex;}
+     
+    
+.navLi {margin-right: 15%;}
+
+
+   .logo { margin-left: 80%;
+    list-style-type: none;
+  
+  }
+  .search-cont {position: relative;
+  }
+
+  .search-cont i { position:absolute;
+    top: 45%;
+    right: 15px;
+    transform: translateY(-50%);
+   cursor: pointer;}
+
+  body {margin: 0;}
+  
+  .navButton {
+    padding: 7px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+  
+  .navLi:hover {cursor: pointer;
+  }
+  
+  #home { padding: 150px 0 55px 0;
+  display: flex;
+  width: 100%;
+  }
+  .home-heading { font-size: 30px;
+                  color: green;
+                  font-family: 'Cinzel Decorative', cursive;
+  }
+  .home-text { font-family: 'Lugrasimo', cursive;}
+  
+  .homeButton {padding: 10px 20px;
+  border: orangered 1px solid;
+  color: orangered;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+  .homeButton:hover {background-color: orange;
+                      border: 1px solid orange;
+                      color: white;
+  }
+  
+  .tagline {width: 100; 
+  margin: 16% 10% 10% 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .homeFlower {width: 100%;
+    overflow:auto;
+  }
+
+  section { background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);}
+
+
+  .header {text-align: center;
+    padding-top: 20px;
+    color:green;
+
+}
+
+  .promo-container { float: left;
+  width: 24.99%;
+  margin: 2% 2% 1% 5%;
+}
+
+.column img {
+  width: 100%;
+  box-sizing: border-box;
+}
+.column p { text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height: 30px ;
+}
+.column button { padding: 5px 10px;
+                border-radius: 30px;
+                margin-bottom: 5%;
+                border: 1px solid green;
+                color: green;
+                background-color: white;
+                
+              }
+.column button:hover {cursor: pointer;
+                      background-color: green;
+                      border: 1px solid green;
+                      color: white;
+                    }
+
+s {color: lightgray;}
+
+
+#promo .more {
+  padding: 8px 15px;
+  border: 1px solid green;
+  color: green;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  }
+
+  #promo span{ display: block;
+   text-align: center;
+  padding-bottom: 20px;
+  
+  }
+
+.occ-header{ float: none;
+            text-align: center;
+            font-family: 'Cinzel Decorative', cursive;
+            background-color:#F7DBD7;
+            padding: 55px 0 5px 0;
+}
+#occ-container {
+  background-color:#F7DBD7;
+  overflow:auto;
+  white-space:nowrap;
+  padding: 30px 50px 100px 50px;
+  margin-top: 0;
+}
+
+                          
+.occ-slide{
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  display: inline-block;
+  margin-right: 14%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: white;
+  padding: 50px 100px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  cursor: pointer;
+}
+
+.occ-slide:hover .overlay {
+  opacity: 1;
+}
