@@ -4,8 +4,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
   .navBar { display: flex;
-    position: fixed;
+    position:fixed;
     top: 0;
+    z-index: 1;
     background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     overflow: auto;
     width: 100%;
@@ -89,7 +90,7 @@ li a {color:black;
 
   .header {text-align: center;
     padding-top: 20px;
-    color:green;
+    color:orangered;
 
 }
 
@@ -109,14 +110,14 @@ li a {color:black;
 .column button { padding: 5px 10px;
                 border-radius: 30px;
                 margin-bottom: 5%;
-                border: 1px solid green;
-                color: green;
+                border: 1px solid orangered;
+                color: orangered;
                 background-color: white;
                 
               }
 .column button:hover {cursor: pointer;
-                      background-color: green;
-                      border: 1px solid green;
+                      background-color: orange;
+                      border: 1px solid orange;
                       color: white;
                     }
 
@@ -125,20 +126,22 @@ s {color: lightgray;}
 
 .more {
   padding: 8px 15px;
-  border: 1px solid green;
-  color: green;
+  border: 1px solid black;
+  color: black;
   background-color: white;
   border-radius: 50px;
   cursor: pointer;
   }
-
+#promo {
+  background-color:#FFFAFA;
+}
   #promo span{ display: block;
    text-align: center;
   padding-bottom: 20px;
   
   }
 
-.occ-header{ float: none;
+.occ-header{ 
             text-align: center;
             font-family: 'Cinzel Decorative', cursive;
             background-color:#F7DBD7;
@@ -154,7 +157,7 @@ s {color: lightgray;}
 
                           
 .occ-slide{
-  position: relative;
+  position:relative;
   width: 50%;
   max-width: 300px;
   display: inline-block;
@@ -180,15 +183,22 @@ s {color: lightgray;}
   opacity: 1;
 }
 
+#Arrangement span{ display: block;
+  text-align: center;
+ padding-bottom: 20px;
+}
+ .header {font-family: 'Cinzel Decorative', cursive;
+  margin-top: 0;
+ }
+ 
 .Footer{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
+  padding: 30px 0;
+  background-color: #FEEFD3;
 }
 .container{
   max-width: 1170px;
-  background-color: aquamarine;
-  margin: auto;
+  
+  padding-top: 20px;
 }
 .row{display:flex;
   flex-wrap: wrap;
@@ -196,10 +206,7 @@ s {color: lightgray;}
 ul{
   list-style: none;
 }
-footer {
-  background-color: rgb(47, 103, 69);
-  padding: 70px 15px;
-}
+
 .footer-col{
   width: 25%;
   padding: 0 15px;
@@ -218,7 +225,7 @@ footer {
   position:absolute;
   left: 0;
   bottom:-10px;
-  background-color: green;
+  background-color: orangered;
   height: 2px;
   box-sizing: border-box;
   width:50px;
@@ -239,17 +246,50 @@ footer {
 .social-icons ul li a:hover{
   color: black;
   padding-top: 15px;
+  
 }
 .social-icons .socials a:hover{
-color: white ;
-background-color: green ;
+color: white;
 }
 .footer {
   text-align: left ;
 }
-
+#Arrangement {
+  background-color: #FCF4E8;
+  
+}
 .arranged-container { float: left;
   width: 24.99%;
   margin: 2% 2% 1% 5%;
 }
 
+.form-container{
+  display: grid;
+ place-items: center;
+  background-color:#F2DAB6;
+  padding: 40px 0;
+}
+#login-form {
+   border: solid 1px white;
+  background-color: white;
+  margin: 0 40%;
+  min-width: 40vh;
+  padding: 20px 50px;
+  
+}
+form h2 {margin-bottom: 50px;}
+
+
+.input-box {
+  padding: 5% 27%;
+  border-radius: 6px ;
+}
+form button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 6px;
+}
+form button:hover {
+  cursor: pointer;
+}
+a {text-decoration: none;}
